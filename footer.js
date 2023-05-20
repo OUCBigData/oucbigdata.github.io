@@ -5,7 +5,7 @@ document.writeln("    	<p><a href=\"https://it.ouc.edu.cn\">计算机科学与�
 document.writeln("    </div>")
 document.writeln("    <div class=\"footer-content\">")	
 document.writeln("    	<p>联系电话：0532-66782730\n</p>")
-document.writeln("    	<p>联系地址：山东省青岛市西海岸新区三沙路1299号（中国海洋大学西海岸校区信息南楼）</p>")
+document.writeln("    	<p>联系地址：山东省青岛市西海岸新区三沙路1299号（西海岸校区信息南楼）</p>")
 document.writeln("    </div>")
 document.writeln("    <p style=\"font-size:14px\"> Copyright 2023 OUC BigData Group. All rights reserved.</p>")
 document.writeln("    </br>")
