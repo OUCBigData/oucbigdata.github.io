@@ -27,20 +27,31 @@
 		
 		<div class="index-wrapper" >
 			<div class="index-body" >
-				<h2 class="slogan">分布式大图数据处理</h2>
+				<h2 class="slogan">1. 分布式大图数据处理</h2>
 				<p>
 				图可抽象物理世界中的各类实体及其之间的复杂关系，是计算机学科中最为重要的数据结构之一。
 				随着互联网、物联网和社交网络等技术的日益普及与快速发展，图的规模急剧增大。
 				动辄数十亿顶点和上千亿条边的大图，极大增加了PageRank计算和连通域发现等数据挖掘算法的
 				时空复杂度，对存储和处理效率的扩展性提出了前所未有的挑战。
-				当前，以Google公司和卡内基梅隆大学为代表的产业界与学术界均从分布式并行处理角度展开探索，
+				当前，以谷歌公司和卡内基梅隆大学为代表的产业界与学术界均从分布式并行处理角度展开探索，
 				但仍存在大量未解决的扩展性问题。鉴于此，本课题组聚焦分布式大图处理，面向CPU和GPU等不同硬件设备，
-				从图划分、磁盘数据存储、同步模型、通信管控和容错控制等角度展开深入研究，
+				从图划分、磁盘数据存储、通信管控和容错控制等角度展开深入研究，
 				相关成果已在ACM SIGMOD、IEEE TKDE、IEEE TPDS和ACM SoCC等国际顶级会议与期刊发表。
 				</p>
-				<div align="center">
-					<img src="research-field/pregel.jpg" width="800" align="center"/>
-				</div>
+				<img src="research-field/pregel.jpg" width="800" align="center"/>
+				<br>
+				
+				<h2 class="slogan">2. 分布式机器/深度学习</h2>
+				<p>
+				在数据与算力持续发展的背景下，机器学习/深度学习技术得到长足发展和广泛应用，人工智能时代已经来临。
+				然而，随着基于Transformer结构的ChatGPT等大模型的相继发布，样本数据与模型参数的规模呈现爆发式增长，
+				TB级样本和千亿级参数已成为常态配置，这对长时序模型训练与推理的时效性提出了严峻挑战，亟需开发高效的
+				分布式/并行训练与推理系统。在已有TensorFlow和Pytorch的基础上，微软等IT巨头打造了DeepSpeed等开源
+				框架，但在同步协同控制、存储管控、收敛判据选择和数据流优化方面，仍存在巨大的提升空间。本课题组据此
+				展开研究，已在ACM SoCC和IEEE TPDS等国际顶级会议与期刊发表相关成果。
+				</p>
+				<img src="research-field/flegel.jpg" width="800" align="center"/>
+				<br>
 			</div>		
 		</div>
 		
