@@ -1,4 +1,4 @@
-document.writeln("    <div class=\"logo\"><img src=\"images/favicon.png\"><h1>中国海洋大学-大数据管理课题组</h1></div>")
+document.writeln("    <div class=\"logo\"><h1>中国海洋大学-大数据管理课题组</h1></div>")
 document.writeln("    		<a class=\"menu_trigger\" href=\"#\"></a>")
 document.writeln("    		<nav id=\"nav\">")
 document.writeln("    			<ul>")
